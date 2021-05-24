@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title> Rotas </title>
+        
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly"
+            async
+        ></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+        <script src="js/script_do_mapa.js"></script>
+        
+        <link rel="stylesheet" href="css/estilo.css">
+       
+
+        
+    </head>
+
+    <body>
+
+        <div id="floating-panel">
+
+            <div class="div_destino"> 
+
+                <span class="txt_destino"> Origem: </span>
+
+                <select id="origem">
+                    <option class="opcoes" value="chicago, il">Chicago</option>
+                    <option class="opcoes" value="st louis, mo">St Louis</option>
+                    <option class="opcoes" value="joplin, mo">Joplin, MO</option>
+                    <option class="opcoes" value="oklahoma city, ok">Oklahoma City</option>
+                    <option class="opcoes" value="amarillo, tx">Amarillo</option>
+                    <option class="opcoes" value="gallup, nm">Gallup, NM</option>
+                    <option class="opcoes" value="flagstaff, az">Flagstaff, AZ</option>
+                    <option class="opcoes" value="winona, az">Winona</option>
+                    <option class="opcoes" value="kingman, az">Kingman</option>
+                    <option class="opcoes" value="barstow, ca">Barstow</option>
+                    <option class="opcoes" value="san bernardino, ca">San Bernardino</option>
+                    <option class="opcoes" value="los angeles, ca">Los Angeles</option>
+                </select>
+
+            </div>
+
+            <div class="div_destino">
+
+                <span class="btn_destino"> Destino: </span>
+
+                <select id="destino">
+                    <option class="opcoes"value="chicago, il">Chicago</option>
+                    <option class="opcoes"value="st louis, mo">St Louis</option>
+                    <option class="opcoes"value="joplin, mo">Joplin, MO</option>
+                    <option class="opcoes"value="oklahoma city, ok">Oklahoma City</option>
+                    <option class="opcoes"value="amarillo, tx">Amarillo</option>
+                    <option class="opcoes"value="gallup, nm">Gallup, NM</option>
+                    <option class="opcoes"value="flagstaff, az">Flagstaff, AZ</option>
+                    <option class="opcoes"value="winona, az">Winona</option>
+                    <option class="opcoes"value="kingman, az">Kingman</option>
+                    <option class="opcoes"value="barstow, ca">Barstow</option>
+                    <option class="opcoes"value="san bernardino, ca">San Bernardino</option>
+                    <option class="opcoes"value="los angeles, ca">Los Angeles</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div id="MAPA"></div>
+
+  
+    </body>
+
+</html>

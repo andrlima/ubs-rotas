@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu{
+    background: blue;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+
+.div_destino{
+    margin: 30px;
+    height: 50px;
+    width: 300px;
+
+}
+
+.txt_destino{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+.for_txt{
+    background: pink;
+    text-align: center;
+
+}
+
+.txt.destino{
+
+    
+}
+
+.opcoes{
+    display: flex;
+    width: 15em;
+    height: 2em;
+    margin: auto;
+
+
+}
+
+#area_mapa{
+    background: blueviolet;
+  
+}
+
+
+
+#MAPA{
+    height: 400px;
+    width: 980px;
+    margin: auto;
+ 
+    
+}
+

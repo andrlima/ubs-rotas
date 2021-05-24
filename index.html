@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title> Rotas </title>
+        
+        <!-- API do google MAP com um key teste-->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly"
+            async
+        ></script>
+        
+        <!-- Lib para os marcadores -->
+        <script src = "https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+        
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script src="js/script_do_mapa.js"></script>
+        <script src="js/script_lendo_arquivo.js"></script>
+        <script src="js/script_do_select.js"></script>
+        
+        <link rel="stylesheet" href="css/estilo.css">
+    
+    </head>
+
+    <body>
+
+        <nav id="menu">
+
+            <div class="div_destino"> 
+
+                <div class="for_txt"> 
+                    <span class="txt_destino"> Origem </span>
+                </div>
+
+                <div class="opcoes">
+
+                    <select id="origem">
+                        <option selected disabled value="ubS jardim santo andre, sp"> UBS Jardim Santo Andre </option>
+                        <option value="ubs v nova curuca, sp"> UBS V Nova Curuca </option>
+                        <option value="ubs jardim silveira rua batista falcidio, sp"> UBS Jardim Silveira </option>   
+                        <option value="ubs vila roschel, sp"> UBS Vila Roschel </option>
+                        <option value="ubs jardim campinas, sp"> UBS Jardim Campinas </option>
+                        <option value="ubs barragem, sp"> UBS Barragem </option>  
+                        <option value="ubs domingos mazzoneto de cilo aurora, sp"> UBS D. M. de Cilo aurora</option>
+                        <option value="ubs belenzinho marcus wolosker, sp"> UBS Belenzinho Marcus Wolosker </option> 
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="div_destino">
+
+                <div class="for_txt">
+                    <span class="txt_destino"> Destino </span>
+                </div>
+
+                <div class="opcoes">
+
+                    <select id="destino">
+                        <option value="ubS jardim santo andre, sp"> UBS Jardim Santo Andre </option>
+                        <option value="ubs v nova curuca, sp"> UBS V Nova Curuca </option>
+                        <option value="ubs jardim silveira rua batista falcidio, sp"> UBS Jardim Silveira </option>   
+                        <option value="ubs vila roschel, sp"> UBS Vila Roschel </option>
+                        <option value="ubs jardim campinas, sp"> UBS Jardim Campinas </option>
+                        <option value="ubs barragem, sp"> UBS Barragem </option>  
+                        <option value="ubs domingos mazzoneto de cilo aurora, sp"> UBS D. M. de Cilo aurora</option>
+                        <option value="ubs belenzinho marcus wolosker, sp"> UBS Belenzinho Marcus Wolosker </option> 
+                    </select>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <section id="area_mapa">
+
+            <div id="MAPA"></div>
+
+            <div id="div_texto">
+                
+                <span id="texto"></span>
+
+                <p> As informações ESPECÍFICA de cada unidade setadas no mapa, pode ser vista clicando no botão.</p> 
+                <a href="util/ubs_SP.json" target="_blank"> Arquivo </a> </p>
+                <p> Essas unidades são às 8 primeiras da consulta do banco de dados. </p>
+                <p> 
+                    Todos as informações de todas as UBS foram posta em um banco, com os campos definidos como no arquivo CASE.
+                    Aprinc
+                
+                </p>
+            </div>
+
+        </section>  
+  
+    </body>
+
+</html>
