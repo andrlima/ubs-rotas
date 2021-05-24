@@ -4,8 +4,15 @@
 
 }
 
+body{
+    background: #242d3b;
+    font-family: 'Roboto', sans-serif;
+    background: #000 url("../img/fundo.jpg") top center/ cover;
+
+}
+
 #menu{
-    background: blue;
+
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -29,8 +36,8 @@
 }
 
 .for_txt{
-    background: pink;
     text-align: center;
+    color: #FFF;
 
 }
 
@@ -49,7 +56,7 @@
 }
 
 #area_mapa{
-    background: blueviolet;
+ 
   
 }
 
@@ -59,6 +66,7 @@
     height: 400px;
     width: 980px;
     margin: auto;
+    border-radius: 8px;
  
     
 }
