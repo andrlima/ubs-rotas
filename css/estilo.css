@@ -12,7 +12,6 @@ body{
 }
 
 #menu{
-
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -32,18 +31,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 25px;
-    
+ 
 }
 
 .for_txt{
     text-align: center;
     color: #FFF;
-
 }
 
 .txt.destino{
-
-    
+ 
 }
 
 .opcoes{
@@ -51,23 +48,20 @@ body{
     width: 15em;
     height: 2em;
     margin: auto;
-
-
 }
 
 #area_mapa{
- 
   
 }
-
-
 
 #MAPA{
     height: 400px;
     width: 980px;
     margin: auto;
     border-radius: 8px;
- 
-    
+
 }
 
+#div_texto{
+    color:#FFF;
+}
