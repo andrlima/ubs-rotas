@@ -7,14 +7,14 @@
 	</head>
 	<body>
 	
-		<h1>Página teste JSP</h1>
-		<%-- comentário em JSP aqui: nossa primeira página JSP --%>
-		<%	String mensagem = "Bem vindo, essa é uma página teste "; %>
+		<h1>PÃ¡gina teste JSP</h1>
+		<%-- comentÃ¡rio em JSP aqui: nossa primeira pÃ¡gina JSP --%>
+		<%	String mensagem = "Bem vindo, essa Ã© uma pÃ¡gina teste "; %>
 		
 		<% out.println(mensagem);%>
 		
 		<br />
-		<% String desenvolvido = "Desenvolvido por (Léo Araújo)"; %>
+		<% String desenvolvido = "Desenvolvido por (LÃ©o AraÃºjo)"; %>
 		
 		<%= desenvolvido %>
 		<br />
